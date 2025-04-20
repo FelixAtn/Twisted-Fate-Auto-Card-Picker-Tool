@@ -3,6 +3,10 @@
 
 A Python-based automation tool that helps **Twisted Fate** players in *League of Legends* automatically pick the correct card (Gold, Blue, or Red) based on keyboard input and screen detection. It utilizes **screen capturing**, **template matching**, and **sound notifications** to enhance your reaction time and gameplay.
 
+## Watch the Video
+
+[Watch the Video](https://www.youtube.com/watch?v=aO-cGoCjDXg)
+
 ## ⚙️ Features
 
 - 🎯 Real-time screen capture and card detection using `mss`, `OpenCV`, and `numpy`
