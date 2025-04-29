@@ -1,5 +1,5 @@
 
-# 🃏 Twisted Fate Auto Card Picker Tool
+# Twisted Fate Auto Card Picker Tool
 
 A Python-based automation tool that helps **Twisted Fate** players in *League of Legends* automatically pick the correct card (Gold, Blue, or Red) based on keyboard input and screen detection. It utilizes **screen capturing**, **template matching**, and **sound notifications** to enhance your reaction time and gameplay.
 
@@ -14,10 +14,10 @@ A Python-based automation tool that helps **Twisted Fate** players in *League of
   - `E` for Gold card
   - `W` for Blue card
   - `S` for Red card
-- 🔊 Plays a sound when the correct card is successfully detected
-- 🖥️ Low-latency image matching with customizable thresholds
-- 🧵 Multithreaded detection loop with a dedicated keyboard listener
-- 🔁 Toggle active/inactive state using the `Home` key
+- Plays a sound when the correct card is successfully detected
+- Low-latency image matching with customizable thresholds
+- Multithreaded detection loop with a dedicated keyboard listener
+- Toggle active/inactive state using the `Home` key
 
 ---
 
@@ -47,7 +47,7 @@ Place the following image and audio files in the **same directory** as the scrip
 
 ---
 
-## 📦 How It Works
+## How It Works
 
 1. **Start the script**:
    ```bash
