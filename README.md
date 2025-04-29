@@ -7,21 +7,19 @@ A Python-based automation tool that helps **Twisted Fate** players in *League of
 
 [Watch the Video](https://www.youtube.com/watch?v=aO-cGoCjDXg)
 
-## ⚙️ Features
+## Features
 
-- 🎯 Real-time screen capture and card detection using `mss`, `OpenCV`, and `numpy`
-- 🎮 Keybinds to initiate specific card selection:
+- Real-time screen capture and card detection using `mss`, `OpenCV`, and `numpy`
+- Keybinds to initiate specific card selection:
   - `E` for Gold card
   - `W` for Blue card
   - `S` for Red card
-- 🔊 Plays a unique sound when the correct card is successfully detected
+- 🔊 Plays a sound when the correct card is successfully detected
 - 🖥️ Low-latency image matching with customizable thresholds
 - 🧵 Multithreaded detection loop with a dedicated keyboard listener
 - 🔁 Toggle active/inactive state using the `Home` key
 
 ---
-
-## 🚀 Getting Started
 
 ### Prerequisites
 
@@ -45,7 +43,7 @@ Place the following image and audio files in the **same directory** as the scrip
 - `blue_sound.mp3` (Blue card sound)
 - `red_sound.mp3` (Red card sound)
 
-> 🔔 Note: You can customize these image and sound files to your own preference.
+> Note: You can customize these image and sound files to your own preference.
 
 ---
 
@@ -71,7 +69,7 @@ Place the following image and audio files in the **same directory** as the scrip
 
 ---
 
-## 🧠 How to Customize
+## How to Customize
 
 ### Adjust the Detection Region
 
@@ -91,7 +89,7 @@ if max_val >= 0.3:  # Lower = more sensitive
 
 ---
 
-## 🛑 Limitations
+## Limitations
 
 - The tool assumes a static UI layout (specific resolution and card location).
 - Requires accurate template images for best results.
@@ -99,13 +97,11 @@ if max_val >= 0.3:  # Lower = more sensitive
 
 ---
 
-## 🤝 Credits
+## Credits
 
 Developed by Felix Atn for educational purposes.
-Uses open-source Python libraries and a love for automation ❤️.
-
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License.
